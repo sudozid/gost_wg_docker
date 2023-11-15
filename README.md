@@ -13,4 +13,5 @@ Steps to get running:
 
 Credits:
 1. https://github.com/ginuerzh/gost
-2. ChatGPT made half the thing
+2. WireGuard
+3. ChatGPT made half the thing

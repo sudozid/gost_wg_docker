@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  gost_wireguard_turkey:
+    image: gost_wg_docker
+    container_name: gost_wireguard
+    cap_add:
+      - NET_ADMIN
+    privileged: true
+    environment:
+      - GOST_USER=james
+      - GOST_PASS=hod
+      - GOST_HOST=0.0.0.0
+      - GOST_PORT=5555
+    volumes:
+      - ./wg0.conf:/etc/wireguard/wg0.conf
+    ports:
+      - "5555:5555"

@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  gost_wireguard_turkey:
+  gost_wireguard:
     image: gost_wg_docker
     container_name: gost_wireguard
     cap_add:

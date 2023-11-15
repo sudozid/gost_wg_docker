@@ -8,7 +8,8 @@ Steps to get running:
 2. Build the docker image
    `sudo docker build -t gost_wg_docker .`
 3. Modify the env variables in docker-compose.yml to suit your needs
-4. Run using
+4. Copy paste your WireGuard VPN Config file to wg0.conf
+5. Run using
    `docker compose up -d`
 
 Credits:
